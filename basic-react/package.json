@@ -1,0 +1,42 @@
+{
+  "name": "reactjs-tut",
+  "version": "1.0.0",
+  "description": "Sample React App",
+  "author": "IBM",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot  --mode=development",
+    "dev": "webpack-dev-server --mode=development --content-base . --inline --hot"
+  },
+  "publishConfig": {
+    "registry": "https://eu.artifactory.swg-devops.com:443/artifactory/api/npm/npm-local"
+  },
+  "license": "EPL-2.0",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.3",
+    "babel-loader": "^7.1.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "cors": "^2.8.4",
+    "cross-fetch": "^2.2.1",
+    "eslint": "^4.19.1",
+    "immutable": "^3.8.2",
+    "material-ui": "^0.20.1",
+    "prop-types": "^15.6.1",
+    "react": "^16.4.0",
+    "react-devtools": "^3.2.3",
+    "react-dom": "^16.4.0",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "react-tap-event-plugin": "^3.0.3",
+    "redux": "^4.0.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "webpack": "^4.11.1",
+    "webpack-cli": "^3.0.3",
+    "webpack-dev-server": "^3.1.4"
+  }
+}

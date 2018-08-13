@@ -1,0 +1,28 @@
+
+{
+    "identifier": "com.rs.basic-react",
+    "apiVersion": "1.0",
+    "pluginVersion": "1.0",
+    "pluginType": "application",
+    "webContent": {
+      "framework": "iframe",
+      "launchDefinition": {
+        "pluginShortNameKey": "basic-react",
+        "pluginShortNameDefault": "IFrame",
+        "imageSrc": "icon.png"
+      },
+      "descriptionKey": "Sample App Showcasing IFrame Adapter",
+      "descriptionDefault": "Sample App Showcasing IFrame Adapter",
+      "startingPage": "index.html",
+      "isSingleWindowApp": true,
+      "defaultWindowStyle": {
+        "width": 800,
+        "height": 420,
+        "x": 200,
+        "y": 50
+      }
+    },
+    "dataServices": [
+  
+    ]
+  }
